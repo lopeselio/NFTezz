@@ -124,9 +124,8 @@ const MintItem = () => {
             // value={this.state.value}
             onChange={(e) => updateFormInput({ ...formInput, name: e.target.value })}
           ><option value="select">Click to select type of Artwork</option>
-            <option value="plastic">Digital Artwork</option>
-            <option value="paper">Traditional</option>
-            <option value="glass">Weapons</option>
+            <option value="Digital">Digital Artwork</option>
+            <option value="Traditional">Traditional</option>
           </select>
           <textarea
             placeholder="Description of Item"
@@ -176,7 +175,7 @@ const MintItem = () => {
           </div>
 
           <button type="button" onClick={(e) => mintNFTToken(e, uploadedFile)} className="font-bold mt-20 bg-blue-500 text-white text-2xl rounded p-4 shadow-lg">
-            Register Item
+            Mint Artwork
           </button>
         </div>
       </div>
