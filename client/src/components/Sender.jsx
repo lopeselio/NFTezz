@@ -61,7 +61,7 @@ export default function Sender() {
     const connection = await web3Modal.connect();
     const provider = new ethers.providers.Web3Provider(connection);
     const signer = provider.getSigner();
-    const contract = new ethers.Contract(marketplaceAddress, NFTEzz.abi, signer);
+    const contract = new ethers.Contract(marketplaceAddress, NFTezz.abi, signer);
 
     /* user will be prompted to pay the asking proces to complete the transaction */
     const price = ethers.utils.parseUnits(nft.price.toString(), "ether");
@@ -95,15 +95,15 @@ export default function Sender() {
                 height="400px"
                 width="100%"
                 src={`${nft.image}#toolbar=0`}
-                className="py-3 object-fill h-500"
+                className="py-3 object-fill h-fit w-fit"
               />
               <div className="p-1">
-                <p style={{ height: "34px" }} className="text-xl text-blue-400 font-semibold">Category: {nft.name}</p>
+                <p style={{ height: "34px" }} className="text-black font-bold">Category: <span className="text-xl text-white font-semibold"> {nft.name}</span></p>
                 <div style={{ height: "40px", overflow: "hidden" }}>
-                  <p className="text-blue-700">Description: {nft.description}</p>
+                  <p className="text-black font-bold">Description: <span className="text-white"> {nft.description}</span></p>
                 </div>
-                <p style={{ height: "34px" }} className="text-xl font-semibold">Country : {nft.country}</p>
-                <p className="text-xl font-bold text-black">Price : {nft.price} MATIC</p>
+                <p style={{ height: "34px" }} className="text-xl font-semibold">Country : <span className="text-xl text-white font-semibold"> {nft.country}</span></p>
+                <p className="text-xl font-bold text-black">Price : <span className="text-xl text-white font-semibold"> {nft.price} MATIC</span></p>
               </div>
 
               <div className="p-2 bg-black">
