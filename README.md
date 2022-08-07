@@ -20,12 +20,23 @@ A platform for creators to tokenize, monetize, and build reputation with their a
 Built with React, and powered by **Polygon, NFT.Storage, IPFS & Filecoin, Alchemy & Hardhat**
 <img width="861" alt="image" src="https://user-images.githubusercontent.com/43913734/183290403-8b859c7b-d190-403e-baef-e3deb3c48a4d.png">
 
+- Users connect to the Platform via metamask wallet.
+- Users can select the type of artwork 'traditional' or 'digital'
+- Decription of the NFT artwork
+- Country/Region of the creator
+- Price in Matic Token
+- When the NFT is minted, the metadata is stored to the IPFS permanently using  `NFT.Storage`, and the produced hash is mapped to the NFT item in the smart contract. 
+- These minted artworks are shown on the creators dashboard in the Explore Section, where users can buy artwork, for the listed price.
+- The funds get deposited from the message.sender to the creator of the tokenised artwork.
+- The metadata is fetched using a call via axios to `ipfsGateWayURL = `https://${urlArray[2]}.ipfs.nftstorage.link/${urlArray[3]}`, 
+- to fetch the CID(content identifier) from the storage URL 
+
 # Smart Contract & web3 & Technologies
 1. `NFTeez.sol` - Solidity & Open Zeppelin
 2. `NFT Storage` [Implemetation](https://github.com/lopeselio/NFTezz/blob/master/client/src/components/MintProfile.jsx#L42)
 3. Harhat for deployment and testing
 4. Alchemy for RPC Infrastructure
-5. ReactJS, PostCSS
+5. ReactJS, PostCSS, Axios
 
 
 # Plans for the future
