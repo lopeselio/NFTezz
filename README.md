@@ -14,7 +14,7 @@ A platform for creators to tokenize, monetize, and build reputation with their a
 
   </p>
 
-  <p>View the project demo on <a href="https://youtu.be/lUCj6xQJxkk">YouTube</a></p>
+  <p>View the project demo on <a href="https://youtu.be/BV7bS3qm4T0">YouTube</a></p>
 </p>
 
 Built with React, and powered by **Polygon, NFT.Storage, IPFS & Filecoin, Alchemy & Hardhat**
