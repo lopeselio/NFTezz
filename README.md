@@ -41,9 +41,19 @@ Built with React, and powered by **Polygon, NFT.Storage, IPFS & Filecoin, Alchem
 
 # Plans for the future
 - Token Gated chat using Lit Protocol for members of the community (Users who mint on our marketplace)
-- Carbon offset tokens to be issued for every NFT minted and sold along with a ReFi calendarto award CO2 offset certificates
+- Carbon offset tokens to be issued for every NFT minted and sold along with a ReFi calendar to award CO2 offset certificates
 - Aims to be a green marketplace on Polygon
 
 
 Contract Addresses:
 - Token Address `NFTeez.sol` on Polygon Numbai Testnet : `0x4D2D611a95A7e724F736028611BA95D1fdc9cE5D` View here: [Etherescan Explorer](https://mumbai.polygonscan.com/address/0x4D2D611a95A7e724F736028611BA95D1fdc9cE5D)
+
+<img width="1440" alt="1" src="https://user-images.githubusercontent.com/43913734/185113461-c16e64b4-6c9b-4c42-b7bd-8935c18d3111.png">
+<img width="1440" alt="2" src="https://user-images.githubusercontent.com/43913734/185113541-a637308c-7ec3-4e9c-b54f-f7b06fb52e0b.png">
+<img width="1440" alt="3" src="https://user-images.githubusercontent.com/43913734/185113584-6f469bdb-bd1e-4d5e-8c80-e6336d8e3ad0.png">
+<img width="1440" alt="4" src="https://user-images.githubusercontent.com/43913734/185113620-bf04e382-b82a-4dff-a632-d994428c9fa8.png">
+<img width="1440" alt="5" src="https://user-images.githubusercontent.com/43913734/185113666-51a04fe1-8cd6-4a9f-ae1f-85c2918a39af.png">
+
+
+
+
