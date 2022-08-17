@@ -9,8 +9,9 @@ A platform for creators to tokenize, monetize, and build reputation with their a
     <img src="./client/src/assets/logo.png" alt="Logo" width="500" height="350">
   </a> 
 
-  <h6>Built at ETHGlobal Metabolism'22</h6>
+  <h6>Built at ETHGlobal Metabolism'22 && Web3 Infinity Hackathon</h6>
   <img width="341" alt="image" src="https://user-images.githubusercontent.com/43913734/183289952-7fa9e7bd-842b-4383-83f9-b4eac29337ce.png">
+  <img width="341" alt="image" src="https://user-images.githubusercontent.com/43913734/185115449-30d46436-b3ab-4c33-90b9-0de31d5ea931.png">
 
   </p>
 
